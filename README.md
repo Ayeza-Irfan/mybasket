@@ -33,7 +33,7 @@ Follow these steps to run the project locally:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/mybasket.git](https://github.com/yourusername/mybasket.git)
+    git clone https://github.com/Ayeza-Irfan/mybasket.git
     ```
 2.  **Install dependencies**
     Navigate to the project folder and run:
