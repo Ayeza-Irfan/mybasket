@@ -50,6 +50,22 @@ Follow these steps to run the project locally:
     flutter run
     ```
 
+    ### 🗄️ Database Setup
+To run this app, you must create a Cloud Firestore database with the following collections:
+
+**1. products**
+- name (string)
+- price (number)
+- image (string URL)
+- description (string)
+- unit (string, e.g., "1kg")
+- isFeatured (boolean)
+
+**2. categories**
+- name (string)
+- image (string URL)
+- color (string hex, e.g., "0xFFE2F3F2")
+
 ## Future Improvements
 
 * **Admin Panel**: A web-based dashboard for store managers to add products and update order statuses.
