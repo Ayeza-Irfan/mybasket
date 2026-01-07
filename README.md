@@ -43,7 +43,6 @@ Follow these steps to run the project locally:
 3.  **Firebase Setup**
     * Create a new project in the [Firebase Console](https://console.firebase.google.com/).
     * Download `google-services.json` (for Android) and place it in `android/app/`.
-    * (Optional) Download `GoogleService-Info.plist` (for iOS) and place it in `ios/Runner/`.
     * Enable **Authentication** (Email/Password) and **Cloud Firestore** in your Firebase Console.
 4.  **Run the App**
     Connect your device or emulator and run:
