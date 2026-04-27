@@ -92013,7 +92013,7 @@ break
 case 5:o=A.aBg(b)
 if(o==null)o=0
 s=8
-return A.u(n.CR(A.an(["productId",c,"name",e,"price",o,"unit",f,"quantity",d,"addedAt",new A.e9(Date.now(),0,!1)],t.N,t.z)),$async$qe)
+return A.u(n.CR(A.an(["productId",c,"name",e,"image",a,"price",o,"unit",f,"quantity",d,"addedAt",new A.e9(Date.now(),0,!1)],t.N,t.z)),$async$qe)
 case 8:case 4:p.a3()
 case 1:return A.z(q,r)}})
 return A.A($async$qe,r)},
