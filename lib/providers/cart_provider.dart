@@ -39,7 +39,7 @@ class CartProvider with ChangeNotifier {
       await cartRef.set({
         'productId': productId,
         'name': title,
-        //'image': image,
+        'image': image,
         'price': double.tryParse(price) ?? 0.0,
         'unit': unit,
         'quantity': quantity,
