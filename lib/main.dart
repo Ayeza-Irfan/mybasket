@@ -11,7 +11,16 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
 
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+  options: const FirebaseOptions(
+    apiKey: "AIzaSyAmaXDOQJUYtf6PcuhRLp-m54N9geAEiEE",
+    authDomain: "mybasket-9b175.firebaseapp.com",
+    projectId: "mybasket-9b175",
+    storageBucket: "mybasket-9b175.firebasestorage.app",
+    messagingSenderId: "83855560536",
+    appId: "1:83855560536:web:bcb09146230a6f27e81f2d"
+  ),
+);
 
   runApp(const MyApp());
 }
